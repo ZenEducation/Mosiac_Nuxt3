@@ -7,22 +7,9 @@
   </div>
 </template>
 
-<script>
-import Vue from "vue";
-import { ref } from "vue";
+<script setup>;
 import Sidebar from "../partials/Sidebar.vue";
-import Header from "../partials/Header.vue";
-
-export default{
-  
-  setup() {
     const sidebarOpen = ref(false);
-
-    return {
-      sidebarOpen,
-    };
-  },
-};
 </script>
 
 

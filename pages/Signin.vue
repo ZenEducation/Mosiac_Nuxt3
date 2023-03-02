@@ -47,7 +47,7 @@
               </div>
               <div class="flex items-center justify-between mt-6">
                 <div class="mr-1">
-                  <router-link class="text-sm underline hover:no-underline" to="/reset-password">Forgot Password?</router-link>
+                  <router-link class="text-sm underline hover:no-underline" to="/ResetPassword">Forgot Password?</router-link>
                 </div>
                 <router-link class="btn bg-indigo-500 hover:bg-indigo-600 text-white ml-3" to="/">Sign In</router-link>
               </div>
